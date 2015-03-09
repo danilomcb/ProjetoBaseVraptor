@@ -4,20 +4,20 @@ import java.io.Serializable;
 
 import javax.enterprise.context.SessionScoped;
 
-import org.hsqldb.User;
+import br.com.projetobase.dominio.Usuario;
 
 @SessionScoped
 public class DadosSessao implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	User usuario;
+	Usuario usuario;
 
-	public User getUsuario() {
+	public Usuario getUsuario() {
 		return usuario;
 	}
 
-	public void setUsuario(User usuario) {
+	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
 	

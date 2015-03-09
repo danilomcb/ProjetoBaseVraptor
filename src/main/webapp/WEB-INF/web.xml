@@ -3,12 +3,30 @@
 	xmlns:web="http://java.sun.com/xml/ns/javaee" xmlns="http://java.sun.com/xml/ns/javaee"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
+
 	<display-name>projeto-base-vraptor</display-name>
+	
+	<welcome-file-list>
+		<welcome-file>/WEB-INF/jsp/home/index.jsp</welcome-file>
+	</welcome-file-list>
+
 	<context-param>
 		<param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
 		<param-value>messages</param-value>
 	</context-param>
+	
 	<listener>
 		<listener-class>org.jboss.weld.environment.servlet.Listener</listener-class>
 	</listener>
+	
+	<!-- Coonfigurando cabeçalho e rodapé padrão de todas as páginas -->
+	<jsp-config>
+		<jsp-property-group>
+			<display-name>Aplicar cabeçalho e rodapé a todas as páginas</display-name>
+			<url-pattern>*.jsp</url-pattern>
+			<page-encoding>UTF-8</page-encoding>
+			<include-prelude>/WEB-INF/jsp/header.jspf</include-prelude>
+			<include-coda>/WEB-INF/jsp/footer.jspf</include-coda>
+		</jsp-property-group>
+	</jsp-config>
 </web-app>
