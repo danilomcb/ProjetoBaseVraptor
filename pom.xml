@@ -20,6 +20,12 @@
 		</dependency>
 		
 		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+			<version>3.0.5</version>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.jboss.weld.servlet</groupId>
 			<artifactId>weld-servlet</artifactId>
 			<version>2.1.2.Final</version>
@@ -51,13 +57,6 @@
             <scope>provided</scope>               
         </dependency>
         
-		<dependency>
-		    <groupId>javax.el</groupId>
-		    <artifactId>el-api</artifactId>
-		    <version>2.2</version>
-		    <scope>provided</scope>
-		</dependency>
-		
 		<dependency>
 		    <groupId>br.com.caelum.vraptor</groupId>
 		    <artifactId>vraptor-jpa</artifactId>

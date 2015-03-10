@@ -4,10 +4,23 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
 
-	<display-name>projeto-base-vraptor</display-name>
+	<!-- Tiles -->
+	<listener>
+	    <listener-class>org.apache.tiles.extras.complete.CompleteAutoloadTilesListener</listener-class>
+	</listener>
+	
+	<servlet>
+	    <servlet-name>TilesDispatchServlet</servlet-name>
+	    <servlet-class>org.apache.tiles.web.util.TilesDispatchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>TilesDispatchServlet</servlet-name>
+	    <url-pattern>*.tiles</url-pattern>
+	</servlet-mapping>
+	<!-- /Tiles -->
 	
 	<welcome-file-list>
-		<welcome-file>/WEB-INF/jsp/home/index.jsp</welcome-file>
+		<welcome-file>/WEB-INF/jsp/index/index.jsp</welcome-file>
 	</welcome-file-list>
 
 	<context-param>
@@ -19,14 +32,4 @@
 		<listener-class>org.jboss.weld.environment.servlet.Listener</listener-class>
 	</listener>
 	
-	<!-- Coonfigurando cabeçalho e rodapé padrão de todas as páginas -->
-	<jsp-config>
-		<jsp-property-group>
-			<display-name>Aplicar cabeçalho e rodapé a todas as páginas</display-name>
-			<url-pattern>*.jsp</url-pattern>
-			<page-encoding>UTF-8</page-encoding>
-			<include-prelude>/WEB-INF/jsp/header.jspf</include-prelude>
-			<include-coda>/WEB-INF/jsp/footer.jspf</include-coda>
-		</jsp-property-group>
-	</jsp-config>
 </web-app>
