@@ -1,16 +1,28 @@
 package br.com.projetobase.dominio;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 import br.com.projetobase.arq.dominio.AbstractEntity;
 
 @Entity
-public class Usuario extends AbstractEntity {
+public class Usuario extends AbstractEntity implements Serializable {
 	
+	private static final long serialVersionUID = 1L;
+
+	@NotNull(message="{nome.vazio}")
+	@Size(min=5, max=50, message="{nome.invalido}")
 	private String nome;
 	
+	@NotNull(message="{email.vazio}")
+	@Size(min=5, max=50, message="{email.invalido}")
 	private String email;
 	
+	@NotNull(message="{senha.vazio}")
+	@Size(min=1, max=50, message="{senha.invalido}")
 	private String senha;
 	
 	@Override

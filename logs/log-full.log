@@ -1,0 +1,235 @@
+13:22:07; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:22:07; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:22:08; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:22:15; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+13:22:17; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+13:22:17; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+13:22:36; [http-bio-8181-exec-7]; INFO ; o.a.t.web.util.TilesDispatchServlet; Tiles dispatch request received. Redirecting POST to GET.
+13:29:01; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:29:22; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:29:22; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:29:23; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:29:49; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:29:49; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:29:50; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:29:54; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+13:29:55; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:29:55; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+13:29:56; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+13:29:56; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+13:37:21; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:37:34; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:37:34; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:37:35; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:37:40; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+13:37:41; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+13:37:41; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+13:38:07; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:38:22; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:38:22; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:38:23; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:38:28; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+13:38:29; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+13:38:29; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+13:39:15; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:39:44; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:39:44; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:39:45; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:39:50; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+13:39:51; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:39:51; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+13:39:52; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+13:39:52; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+13:51:28; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:53:00; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:53:00; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:53:00; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:53:04; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+13:53:05; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+13:53:05; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+13:53:56; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:54:14; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+13:54:14; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+13:54:15; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+13:54:19; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+13:54:21; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+13:54:21; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+14:07:47; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:08:05; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+14:08:05; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:08:06; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+14:08:17; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+14:08:19; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+14:08:19; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:09:17; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+14:09:17; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:09:18; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+14:09:21; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+14:09:22; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:09:22; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+14:09:23; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+14:09:23; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+14:10:07; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:44:40; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+14:44:40; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:44:40; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+14:44:46; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+14:44:47; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /index/usuarioLogado                              [ALL] -> public br.com.projetobase.dominio.Usuario br.com.projetobase.web.IndexController.usuarioLogado()
+14:44:47; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+14:46:31; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:46:43; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+14:46:43; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+14:46:44; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+14:46:51; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+14:46:53; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+14:46:53; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+15:18:06; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+15:18:20; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+15:18:20; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+15:18:21; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+15:18:28; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+15:18:30; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+15:18:30; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+15:19:54; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+15:20:06; [localhost-startStop-1]; INFO ; org.jboss.weld.Version; WELD-000900: 2.1.2 (Final)
+15:20:06; [localhost-startStop-1]; INFO ; org.apache.tiles.access.TilesAccess; Publishing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext
+15:20:07; [localhost-startStop-1]; INFO ; org.jboss.weld.Bootstrap; WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+15:20:16; [localhost-startStop-1]; INFO ; o.j.w.e.tomcat7.Tomcat7Container; Tomcat 7+ detected, CDI injection will be available in Servlets and Filters. Injection into Listeners is not supported
+15:20:17; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+15:20:17; [localhost-startStop-1]; INFO ; b.c.c.vraptor.core.DefaultConverters; Registering bundled converters
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form/{entidade.id}                       [GET] -> public void br.com.projetobase.arq.web.CrudController.form(br.com.projetobase.arq.dominio.AbstractEntity)
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/form                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.form()
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/list                                     [ALL] -> public void br.com.projetobase.arq.web.CrudController.list()
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/show                                     [ALL] -> public br.com.projetobase.arq.dominio.AbstractEntity br.com.projetobase.arq.web.CrudController.show(br.com.projetobase.arq.dominio.AbstractEntity)
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/salvar                                   [ALL] -> public void br.com.projetobase.arq.web.CrudController.salvar(br.com.projetobase.arq.dominio.AbstractEntity)
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /usuario/remover/{entidade.id}                    [GET] -> public void br.com.projetobase.arq.web.CrudController.remover(br.com.projetobase.arq.dominio.AbstractEntity)
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /                                                 [ALL] -> public void br.com.projetobase.web.IndexController.index()
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/form                                       [ALL] -> public void br.com.projetobase.web.LoginController.form()
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/login                                      [ALL] -> public void br.com.projetobase.web.LoginController.login(br.com.projetobase.dominio.Usuario)
+15:20:18; [localhost-startStop-1]; INFO ; b.c.c.v.h.route.DefaultRouteBuilder; /login/sair                                       [ALL] -> public void br.com.projetobase.web.LoginController.sair()
+15:20:18; [localhost-startStop-1]; INFO ; br.com.caelum.vraptor.VRaptor; VRaptor 4.1.4 successfuly initialized
+15:20:52; [localhost-startStop-2]; INFO ; org.apache.tiles.access.TilesAccess; Removing TilesContext for context: org.apache.tiles.request.servlet.ServletApplicationContext

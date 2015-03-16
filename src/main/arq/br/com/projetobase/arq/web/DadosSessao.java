@@ -21,4 +21,8 @@ public class DadosSessao implements Serializable {
 		this.usuario = usuario;
 	}
 	
+	public void limparSesao() {
+		setUsuario(null);
+	}
+	
 }

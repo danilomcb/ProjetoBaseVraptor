@@ -14,16 +14,7 @@
 					<ul class="nav pull-right">
 						<li><a class="languageFlag" href="?language=pt_BR"><img	src="${ctx}/resources/images/flags/br.png" alt="br" /></a></li>
 						<li><a class="languageFlag" href="?language=en"><img src="${ctx}/resources/images/flags/us.png" alt="en" /></a></li>
-						<li class="dropdown">
-							<a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"> 
-								<i class="icon-user"></i> Usuario Logado <i class="caret"></i>
-							</a>
-							<ul class="dropdown-menu">
-								<li><a tabindex="-1" href="#"><fmt:message key="perfil"></fmt:message></a></li>
-								<li class="divider"></li>
-								<li><a tabindex="-1" href="login.html"><fmt:message	key="sair" /></a></li>
-							</ul>
-						</li>
+						<li><a href="<c:url value = "/login/sair"/>"><fmt:message	key="sair" /></a></li>
 					</ul>
 					<ul class="nav">
 						<li class="${activeHome}"><a href="#"><fmt:message key = "home"/></a></li>
@@ -33,7 +24,7 @@
 							</a>
 							<ul class="dropdown-menu">
 								<li><a href="<c:url value="/usuario/form"/>"><fmt:message key = "form"/></a></li>
-								<li><a href="#">List</a></li>
+								<li><a href="<c:url value="/usuario/list"/>"><fmt:message key = "lista"/></a></li>
 							</ul>
 						</li>
 					</ul>
