@@ -1,6 +1,6 @@
 # ProjetoBaseVraptor
 
-Projeto base utilizando VRaptor 4, Tiles, JPA, AngularJs, Tomcat maven plugin.
+Projeto base utilizando VRaptor 4, JPA, Tiles, AngularJs, Bootstrap e Tomcat maven plugin.
 
 ## Uso
 
