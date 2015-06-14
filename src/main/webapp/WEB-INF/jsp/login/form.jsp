@@ -12,7 +12,10 @@
 				<input type="checkbox" value="remember-me">
 				Remember me
 			</label>
-			<button class="btn btn-large btn-primary" type="submit">Entrar</button>
+			<button style="margin-bottom: 20px;" class="btn btn-large btn-primary" type="submit">Entrar</button>
+			
+			<c:import url="${ctx}/template/mensagens.jsp" />
+			
 		</form>
 	</div>
 	<script src="<c:url value='/resources/js/jquery-2.1.3.js' />"></script>

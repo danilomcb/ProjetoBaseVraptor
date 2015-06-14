@@ -7,10 +7,6 @@
 
 <c:set var="ctx" value="${pageContext.request.contextPath}" />
 
-<script type="text/javascript">
-    var _contextPath = "${pageContext.request.contextPath}";
-</script>
-
 <c:if test="${not empty param.language}">  
     <fmt:setLocale value="${param.language}" scope="session"/>  
 </c:if>
@@ -22,7 +18,7 @@
 		<link href="${ctx}/resources/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 		<link href="${ctx}/resources/css/styles.css" rel="stylesheet" media="screen">
 	</head>
-	<body ng-app = "projetoBase">
+	<body>
 		<tiles:insertAttribute name="header" />
 		
 		<tiles:insertAttribute name="body" />

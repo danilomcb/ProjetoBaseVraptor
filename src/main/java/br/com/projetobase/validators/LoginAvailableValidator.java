@@ -10,7 +10,6 @@ public class LoginAvailableValidator implements ConstraintValidator<LoginAvailab
 
 	@Override
 	public void initialize(LoginAvailable arg0) {
-		
 	}
 
 	@Override

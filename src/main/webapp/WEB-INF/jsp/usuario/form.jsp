@@ -3,22 +3,20 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 
-<div class="container" ng-controller="usuarioContoller">
+<div class="container">
 	<div class="block">
 		<div class="navbar navbar-inner block-header">
 			<div class="muted pull-left">
 				<fmt:message key="form.usuario" />
 			</div>
 		</div>
+		
 		<div class="block-content collapse in">
-			<div class="alert alert-error" ng-hide = "mostrarMensagensDeErro()">
-				<a class="close" data-dismiss="alert" href="#"/>×</a>
-				<div ng-repeat="erro in erros">		
-					{{erro.message}}<br/>
-				</div>
-			</div>
-			<form>
-				<input id="entidadeId" type="hidden" ng-model = "entidade.id"/>
+			<form action="<c:url value="/usuario/salvar"/>" method="post">
+				<input id="entidadeId" type="hidden" name = "entidade.id" value="${entidade.id}"/>
+				
+				<c:import url="${ctx}/template/mensagens.jsp" />
+				
 				<fieldset>
 					<legend>
 						<fmt:message key="usuario"></fmt:message>
@@ -26,23 +24,23 @@
 					<div class="control-group">
 						<label class="control-label"><fmt:message key="nome" /></label>
 						<div class="controls">
-							<input id='usuarioNome' class="form-control" type="text" ng-model = "entidade.nome" />
+							<input id='usuarioNome' class="form-control" type="text" name = "entidade.nome" value="${entidade.nome}"/>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label"><fmt:message key="email" /></label>
 						<div class="controls">
-							<input id="usuarioEmail" class="form-control" type="email" ng-model = "entidade.email" />
+							<input id="usuarioEmail" class="form-control" type="email" name = "entidade.email" value="${entidade.email}"/>
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label"><fmt:message key="senha" /></label>
 						<div class="controls">
-							<input id="usuarioSenha" class="form-control" type="password" ng-model = "entidade.senha"/>
+							<input id="usuarioSenha" class="form-control" type="password" name = "entidade.senha"/>
 						</div>
 					</div>
 					<div class="form-actions">
-						<button type="submit" class="btn btn-primary" ng-click="salvarEntidade()">
+						<button type="submit" class="btn btn-primary">
 							<fmt:message key="save" />
 						</button>
 						<a type="button" class="btn" href="<c:url value="/"/>">Cancelar</a>
@@ -67,24 +65,24 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr ng-repeat="usuario in entidades">
-							<td>{{usuario.nome}}</td>
-							<td>{{usuario.email}}</td>
-							<td><a href = "#" ng-click = "editarEntidade(usuario)"><i class = "icon-edit"></i></a></td>
-							<td><a href = "#" ng-click = "removerEntidade(usuario)"><i class = "icon-trash"></i></a></td>
-						</tr>
-						<tr ng-show = "hide_mensagem_empty_table(entidades)">
-							<td><fmt:message key = "lista.vazia"></fmt:message></td>
-							<td></td>
-							<td></td>
-						</tr>
+						<c:forEach var="usuario" items="${entidades}">
+							<tr>
+								<td>${usuario.nome}</td>
+								<td>${usuario.email}</td>
+								<td><a href = "<c:url value="/usuario/form/${usuario.id}"/>"><i class = "icon-edit"></i></a></td>
+								<td><a href = "<c:url value="/usuario/remover/${usuario.id}"/>"><i class = "icon-trash"></i></a></td>
+							</tr>
+						</c:forEach>
+						<c:if test="${entidades.isEmpty()}">
+							<tr>
+								<td><fmt:message key = "lista.vazia"></fmt:message></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</c:if>
 					</tbody>
 				</table>
 			</div>
 		</div>
 	</div>
 </div>
-
-
-<script src="<c:url value= "/resources/js/angular.js" />"></script>
-<script src="<c:url value='/resources/js/pages/usuario/usuarioController.js' />"></script>
